@@ -1,9 +1,9 @@
 {
-  "run_time": "2026-11-15T04:15:56",
+  "run_time": "2026-11-07T07:03:21",
   "task": "Binary segmentation",
   "framework": "PyTorch",
-  "torch_version": "2.8.0+cu129",
-  "cuda_version": "12.9",
+  "torch_version": "2.14.1+cu130",
+  "cuda_version": "13.0",
   "device": "cuda",
   "gpu_name": "NVIDIA GeForce RTX 4090",
   "image_dir": "/workspace/A3_SageScanRobot_E_PyTorch/data/train/images",
@@ -427,9 +427,9 @@
     "/workspace/A3_SageScanRobot_E_PyTorch/data/train/images/120.jpeg"
   ],
   "mask_mapping": "Background=0; Foreground=1",
-  "completed_epochs": 97,
-  "best_epoch": 72,
-  "best_validation_iou": 0.7199482428200977,
-  "average_epoch_seconds": 3.3648134212432064,
-  "total_execution_seconds": 401.4685489460826
+  "completed_epochs": 96,
+  "best_epoch": 71,
+  "best_validation_iou": 0.7231156178020174,
+  "average_epoch_seconds": 5.491596585741111,
+  "total_execution_seconds": 659.7186627956107
 }
